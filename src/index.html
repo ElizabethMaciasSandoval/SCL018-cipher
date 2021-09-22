@@ -1,14 +1,48 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
-    <script src="index.js" type="module"></script>
-  </body>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Safer Message</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <section class="container">
+            <header>
+                <h1>Si sientes que estás en una situación de violencia, utiliza este canal.</h1>
+                <h2>Cifra tus mensajes con SAFER MESSAGE y enviálos de forma segura. </h2>
+            </header>
+            <section>
+                <section class="subcontainer1">
+                    <!--input para que el usuario ingrese el n° de desplazamiento que se movera el abcedario para cifrar/descifrar su mensaje-->
+                    <label for="desplazamiento">Ingresa un Número de Desplazamiento</label>
+                    <input id="desplazamiento" type="number" name="desplazamiento">
+                </section>
+                <section class="subcontainer2">
+                    <div class="bloque1">
+                        <!--input para que el usuario ingrese su mensaje a cifrar/descifrar-->
+                        <h3>Escribe tu mensaje</h3>
+                        <input id="mensaje" type="text" placeholder="Escribe tu Mensaje">
+                    </div>
+                    <div class="bloque2">
+                        <!--botones de cifrar y descifrar con los que el usuario ejecutara la función de cifrar y descifrar, segun corresponda-->
+                         <p>
+                            <button id="btCifrar" type="button">Cifrar</button>
+                            <button id="btDescifrar" type="button">Descifrar</button>
+                            <button id="btLimpiar" type="button">Limpiar</button>
+                        </p>
+                    </div>
+                    <div class="bloque3">
+                        <!--input en el cual se imprimira el mensaje cifrado/descifrado-->
+                        <h3>Mensaje Cifrado/Descifrado</h3>
+                        <input id="mensaje2" type="text" placeholder="Mensaje Cifrado/Descifrado">
+                    </div>
+                </section>
+            </section>  
+        </section>
+        <footer>
+            Proyecto Cipher | Safer Message Web 2021
+        </footer>
+        <script src="index.js" type="module"></script>
+    </body>
 </html>

@@ -463,5 +463,8 @@ Esta sección está para ayudarte a llevar un control de lo que vas completando.
 * [ ] Cifra/descifra _otros_ caracteres (espacios, puntuación, `ñ`, `á`, ...)
 * [ ] Permite usar un `offset` negativo.
 
-###primer cambio 
-###segundo cambio
+La siguiente aplicación web la hemos nombrado Safer Message y se basa en el método de Cifrado Cesar. Para eso, el usuario deberá indicar un número de offset, ingresar un texto para mostrar un resultado cifrado y añadir un texto para mostrar un resultado descifrado. 
+Esta aplicación ha sido diseñada pensando en las mujeres que sufren violencia intrafamiliar, como un medio secreto de mensajería. De este modo, ellas podrían escribir un mensaje en caso que estén siendo víctimas de una situación de riesgo y así no podrían ser descubiertas por su agresor.
+El proceso de diseño contempla un prototipo en papel y otro en Figma.
+Se ha creado una estructura HTML en el archivo index.html, y cuenta con:
+Las funciones cipher.encode y cipher.decode se encuentran contenidas dentro del archivo cipher.js.
