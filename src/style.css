@@ -6,10 +6,14 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
-    font-family: Arial;
     color: black;
     font-size: 15px;
-    text-align: center;   
+    text-align: center;  
+    font-family: cursive;
+}
+#textoDeBienvenida{
+    display: flex;
+    justify-content: center;  
 }
 .container{
     background-color: rgba(101, 75, 119, 50%);
@@ -22,16 +26,17 @@ body {
 }
 .subcontainer2{
     display: flex;
-    justify-content: space-around;
-}
+    flex-wrap: nowrap;
+    justify-content: center;}
+    
 #desplazamiento{
     width: 50px;
 }
 .bloque1{
     display: flex;
     margin: 3px;
-    width: 300px;
-    height: 300px;
+    width: 600px;
+    height: 600px;
     flex-direction: column;
     align-items: center;
 }
@@ -43,8 +48,8 @@ body {
 .bloque3{
     display: flex;
     margin: 3px;
-    width: 300px;
-    height: 300px;
+    width: 600px;
+    height: 600px;
     flex-direction: column;
     align-items: center;
 }
@@ -56,16 +61,17 @@ h3{
     color: ivory;
 }
 #mensaje,#mensaje2{
-    width: 250px;
-    height: 200px;
+    width: 500px;
+    height: 300px;
 }
 h1{
-    background-color: rgb(133, 100, 165);
     color:ivory;
+    font-size: 60px;
 }
 h2{
     color:ivory;
-}  
+    width: 70%;
+}
 footer{
     background-color: darkgray;
     padding: 1%;
