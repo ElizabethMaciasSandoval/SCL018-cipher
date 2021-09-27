@@ -35,18 +35,21 @@ A lo largo del transcurso del proyecto nuestro el prototipo fue sufriendo cambio
 experiencia del usuario y hacerla más eficiente, nuestro primer prototipo fue trabajado en papel y el segundo se realizó 
 en figma, obteniendo como resultado lo siguiente:
  
-<img src = src/imagenes/prototipoPapel.jpg width = 300px>
+<img src = src/imagenes/prototipoPapel.jpg width = 500px>
 
-<img src = src/imagenes/pagina1.png width = 300px>
+<img src = src/imagenes/pagina1.png width = 500px>
 
-<img src = src/imagenes/pagina2.png width = 300px>
+<img src = src/imagenes/pagina2.png width = 500px>
 
 ## Producto Final
 
 Como se comento anteriormente el prototipo fue sufriendo algunos cambios y el resultado final de la pagina es muy distinto a 
 lo anteriormente diseñado. El producto final consata de una sola pagina y ya no se pide al usuario ingresar un nombre, ahora los 
 invito a conocer el resultado final:
-<img src = src/imagenes/paginaFinal.png width = 300px>
+
+<img src = src/imagenes/paginaFinal.png width = 500px>
 
 ## Link del proyecto
+
+[linkgithub](https://ElizabethMaciasSandoval.github.io/SCL018-cipher/src/ "link de github")
 
